@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+.Block a {
+    display: Block;
+    background-color: rgb(15, 45, 97);
+    color: aliceblue;
+    padding: 5PX;
+    margin: 5PX;
+    text-decoration: none;
+
+}
+.INLINE-MENU a{
+    display: inline;
+    background-color: rgb(203, 140, 232);
+    color: aliceblue;
+    text-decoration: solid;
+}
+.inline-block a{
+    display: inline-block;
+    background-color: rgb(224, 74, 74);
+    color: aliceblue;
+    text-decoration: dotted;
+    margin: 5px;
+    padding: 5px;
+}
+.CLEAR-EXAMPLE A{
+    clear: both;
+    background-color: chartreuse;
+    color: aliceblue;
+    padding: 5px 10PX;
+    margin: 5px;
+    text-decoration: dotted;
+}
+.FLOAT-EXAMPLE A{
+    float: right;
+    background-color: crimson;
+    color: antiquewhite;
+    padding: 20PX 20PX;
+    margin: 5px;
+
+}
