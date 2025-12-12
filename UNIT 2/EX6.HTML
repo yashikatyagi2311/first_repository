@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Table Example</title>
+  <style>
+    /* Responsive wrapper */
+    .table-wrapper {
+      overflow-x: auto;   /* Enables horizontal scroll */
+      margin: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 600px;       /* Fixed width to demonstrate scrolling */
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="table-wrapper">
+    <table>
+      <caption><strong>Monthly Report</strong></caption>
+      <tr>
+        <th>Month</th>
+        <th>Sales</th>
+        <th>Profit</th>
+      </tr>
+      <tr>
+        <td>Jan</td>
+        <td>1000</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>Feb</td>
+        <td>1200</td>
+        <td>400</td>
+      </tr>
+      <tr>
