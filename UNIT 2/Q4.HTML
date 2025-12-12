@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rowspan and Colspan Example</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    caption {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Student Marks</caption>
+    <tr>
+      <th rowspan="2">Name</th>       <!-- Spans 2 rows -->
+      <th colspan="2">Subjects</th>   <!-- Spans 2 columns -->
+    </tr>
+    <tr>
+      <th>Math</th>
+      <th>Science</th>
+    </tr>
