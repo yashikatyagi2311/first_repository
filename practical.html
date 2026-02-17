@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Menu Example</title>
+  <style>
+    /* Reset default margin/padding */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation container */
+    .nav {
+      background-color: #333;
+      overflow: hidden; /* clears floated elements */
+    }
+
+    /* Inline-block menu items */
+    .nav a {
+      display: inline-block;   /* inline-block allows width/height */
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Hover effect */
+    .nav a:hover {
+      background-color: #575757;
+    }
+
+    /* Float example: logo floated left */
+    .logo {
+      float: left;
+      display: block; /* block ensures it takes full height */
+      color: yellow;
+      font-weight: bold;
+      padding: 14px 20px;
+    }
+
+    /* Clear example: ensures content starts below nav */
+    .content {
+      clear: both;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <div class="logo">MySite</div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="content">
+    <h1>Welcome!</h1>
+    <p>This is the main content area. Notice how it starts below the floated logo and menu because of <code>clear: both;</code>.</p>
+  </div>
+
+</body>
+</html>
