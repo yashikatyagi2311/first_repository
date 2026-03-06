@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>User Registration</h1>
+  <form>
+    <h2>Personal Information</h2>
+    First Name: <input type="text" name="fname"><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    Date of Birth: <input type="date" name="dob"><br><br>
+    Gender:
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+
+    <h2>Contact Details</h2>
+    Email: <input type="email" name="email"><br><br>
+    Phone: <input type="tel" name="phone"><br><br>
+    Address: <textarea name="address" rows="4" cols="40"></textarea><br><br>
+
+    <h2>Account Setup</h2>
+    Username: <input type="text" name="username"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    Confirm Password: <input type="password" name="confirm_password"><br><br>
+
+    <h2>Preferences</h2>
+    Subscribe to Newsletter:
+    <input type="checkbox" name="newsletter" value="yes"><br><br>
+    Choose your interests:<br>
+    <input type="checkbox" name="interest" value="tech"> Technology<br>
+    <input type="checkbox" name="interest" value="sports"> Sports<br>
+    <input type="checkbox" name="interest" value="music"> Music<br>
+    <input type="checkbox" name="interest" value="travel"> Travel<br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear Form">
+  </form>
+</body>
+</html>
